@@ -1,0 +1,21 @@
+INFO 2025-06-07 23:17:35,246 autoreload 32936 14304 Watching for file changes with StatReloader
+INFO 2025-06-07 23:24:29,048 autoreload 32936 14304 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
+INFO 2025-06-07 23:24:31,423 autoreload 29428 11280 Watching for file changes with StatReloader
+INFO 2025-06-07 23:24:46,415 basehttp 29428 4284 "POST /api/token/ HTTP/1.1" 301 0
+INFO 2025-06-07 23:29:00,546 basehttp 29428 10924 "POST /api/token/ HTTP/1.1" 301 0
+INFO 2025-06-07 23:29:19,273 autoreload 29428 11280 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
+INFO 2025-06-07 23:30:06,238 autoreload 26104 25324 Watching for file changes with StatReloader
+INFO 2025-06-07 23:30:43,483 basehttp 26104 6844 "POST /api/token/ HTTP/1.1" 301 0
+INFO 2025-06-07 23:30:58,813 autoreload 26104 25324 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
+INFO 2025-06-07 23:31:01,164 autoreload 20264 27464 Watching for file changes with StatReloader
+INFO 2025-06-07 23:31:24,280 autoreload 20264 27464 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
+INFO 2025-06-07 23:31:26,476 autoreload 7768 18532 Watching for file changes with StatReloader
+INFO 2025-06-07 23:31:47,577 autoreload 7768 18532 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
+INFO 2025-06-07 23:32:13,560 autoreload 26352 4872 Watching for file changes with StatReloader
+INFO 2025-06-07 23:32:45,403 basehttp 26352 1156 "POST /api/token/ HTTP/1.1" 301 0
+INFO 2025-06-08 00:08:57,859 autoreload 26352 4872 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
+INFO 2025-06-08 00:09:00,827 autoreload 9884 31772 Watching for file changes with StatReloader
+INFO 2025-06-08 00:09:22,572 autoreload 9884 31772 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
+INFO 2025-06-08 00:09:24,939 autoreload 9620 4800 Watching for file changes with StatReloader
+INFO 2025-06-08 00:09:49,379 basehttp 9620 32936 "POST /api/token/ HTTP/1.1" 301 0
+INFO 2025-06-08 00:10:14,646 autoreload 9620 4800 C:\Users\parth\OneDrive\Desktop\voltex\backend\backend\settings.py changed, reloading.
