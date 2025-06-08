@@ -15,8 +15,13 @@ class SimulateView(APIView):
 
     def post(self, request):
         data = request.data
-        result = run_simulation(data.get("battery_type"), data.get("params", {}))
-        return Response(result)
+        try:
+            result = run_simulation(data.get("battery_type"), data.get("params", {}),data.get("selected_model"))
+            return Response(result)
+        except Exception as e:
+            import traceback
+            traceback.print_exc()
+            return Response({"error": str(e)}, status=500)
 
 
 class AskAIView(APIView):
