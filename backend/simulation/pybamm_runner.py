@@ -20,6 +20,12 @@ def run_simulation(battery_type, params_from_request,selected_model):
         "LOQS": pybamm.lead_acid.LOQS,
         "Full": pybamm.lead_acid.Full,
     }
+    sodium_ion_models = {
+        "SPM": pybamm.sodium_ion.SPM,
+        "SPMe": pybamm.sodium_ion.SPMe,
+        "DFN": pybamm.sodium_ion.DFN,
+        "BasicDFN": pybamm.sodium_ion.BasicDFN,
+    }
     # Select model and parameters
     if battery_type == "lithium-ion":
         model_class = lithium_models[selected_model]
@@ -29,6 +35,11 @@ def run_simulation(battery_type, params_from_request,selected_model):
         model_class = lead_acid_models[selected_model]
         model=model_class()
         param = pybamm.ParameterValues("Sulzer2019")
+    elif battery_type == "sodium-ion":
+        model_class = sodium_ion_models[selected_model]
+        model = model_class()
+        param = pybamm.ParameterValues("Chen2020")  # Base parameters, will need Na-ion specific ones
+       
     else:
         raise ValueError(f"Unsupported battery type: {battery_type}")
     
