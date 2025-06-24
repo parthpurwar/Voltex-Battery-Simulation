@@ -40,10 +40,7 @@ User = get_user_model()
 
 
 logger = logging.getLogger(__name__)
-client = OpenAI(
-    api_key="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"  # preferably: os.getenv("OPENAI_API_KEY")
-)
-
+os.getenv("api_key")
 # openai.api_key="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"
 
 class SimulateView(APIView):
