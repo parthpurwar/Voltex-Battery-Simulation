@@ -1,6 +1,7 @@
 # Voltex Battery Simulation Platform
 
 A full-stack battery simulation platform for modeling and analyzing various battery chemistries using PyBaMM. Features JWT authentication, real-time visualization, **AI-powered chatbot using OpenAI GPT-3.5**, and support for multiple battery models (SPM, SPMe, DFN, MPM, MSMR).
+<img width="1280" height="607" alt="image" src="https://github.com/user-attachments/assets/85de2669-289a-4e37-a929-e18ca81c0ca1" />
 
 
 
