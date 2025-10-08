@@ -15,6 +15,7 @@ A full-stack battery simulation platform for modeling and analyzing various batt
 - [Running the Application](#running-the-application)
 - [API Endpoints](#api-endpoints)
 - [Battery Models Supported](#battery-models-supported)
+- [Project Structure](#project-structure)
 
 ## Features
 
@@ -154,10 +155,6 @@ frontend/
 │   └── Login.js/Register.js # Auth pages
 └── package.json
 ```
-
-## Contributing
-
-Fork the repository, create a feature branch, commit changes, and open a pull request. Ensure code follows existing style and includes tests.
 
 ---
 
